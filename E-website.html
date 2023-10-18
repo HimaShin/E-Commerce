@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Himakar's E-Commerce Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="E-website.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9da8518f49.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="bi me-2" width="40" height="30" src="ecom.png" alt="">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#home" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                    <li><a href="#footer" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner"  id="home">
+            <div class="carousel-item active">
+                <img src="lap1.png" class="d-block w-100" alt="..." width="100px" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome To Himakar's E-Commerce Website</h3>
+                    <p>Gadgets Make Life Easier.</p>
+                    <button type="button" class="btn btn-primary">Technology</button>
+                    <button type="button" class="btn btn-danger">Fashion</button>
+                    <button type="button" class="btn btn-success">Trends</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="app.png" class="d-block w-100" alt="..." width="100px" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Fashion</h3>
+                    <p>Fashion is a Part of Life.</p>
+                    <button type="button" class="btn btn-primary">Technology</button>
+                    <button type="button" class="btn btn-danger">Fashion</button>
+                    <button type="button" class="btn btn-success">Trends</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="watn.png" class="d-block w-100" alt="..." width="100px" height="400px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Accesories</h3>
+                    <p>Accesories are the useful Tools for well being</p>
+                    <button type="button" class="btn btn-primary">Technology</button>
+                    <button type="button" class="btn btn-danger">Fashion</button>
+                    <button type="button" class="btn btn-success">Trends</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container marketing">
+        <hr class="featurette-divider">
+
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Branded Laptops <span class="text-body-secondary">It’ll
+                        blow your mind.</span></h2>
+                <p class="lead">Laptop Brings back a seamless kind of learning</p>
+            </div>
+            <div class="col-md-5">
+                <img src="air.png" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Gadgets Make life Easier <span
+                        class="text-body-secondary">See for yourself.</span></h2>
+                <p class="lead">Dreams about the Future are always filled with the Gadgets</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src="im1.png" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
+                        class="text-body-secondary">Checkmate.</span></h2>
+                <p class="lead">Everyone looks at your Watches and it represent who you are ,your values and personal
+                    Styles</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src="wat.png" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div>
+    <a href="#sectioncart" style="text-decoration: none;"><button class="button m-1" onclick="display('sectioncart')">View Cart</button></a>
+    <div id="sectioncartitems">
+    <div class="container">
+        <div class="album py-5 bg-blue">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="headset.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Headset</h4>
+                                <h5>Price:2400/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Garments" onclick="addItemToCart('Headset', 2400)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Lenovo.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Lenovo Ideapad</h4>
+                                <h5>Price:69,250/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Cosmetics" onclick="addItemToCart('Lenovo Ideapad', 69250)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="oppo.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Oppo F19 Pro</h4>
+                                <h5>Price:24,000/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Furniture" onclick="addItemToCart('Oppo F19 Pro',24000)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="apple.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Apple Smart Watch</h4>
+                                <h5>Price:10,000/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Smart Phones" onclick="addItemToCart('Apple Smart Watch',10000)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="phil.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Philips Trimmer</h4>
+                                <h5>Price:1,999/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Beauty" onclick="addItemToCart('Philips Trimmer',1999)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="puma.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Puma Shoes</h4>
+                                <h5>Price:5,999/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Watches" onclick="addItemToCart('Puma Shoes', 5999)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="hbag.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">HP 15.6 inches</h4>
+                                <h5>Price:2,999/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Toys" onclick="addItemToCart('HP 15.6 inches',2999)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="soc.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">Plug Socket</h4>
+                                <h5>Price:599/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Wild Fashion" onclick="addItemToCart('Plug Socket', 599)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm bg-blue">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="onep.png"
+                                alt="">
+                            <div class="card-body">
+                                <h4 class="card-text">One Plus Charger</h4>
+                                <h5>Price:900/-</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-success">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-inline-secondary btn-warning btn-add-to-cart"
+                                            data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top"
+                                            data-bs-content="Product has been added to the Cart"
+                                            data-product-name="Home Appliances" onclick="addItemToCart('One Plus Charger', 900)">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div id="sectioncart" class="bg-Cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <p>Total: Rs.<span id="cart-total">0</span></p>
+    </div>
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Himakar's E-Commerce Website</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Contact Me:</li>
+                    <li><a href="www.linkedin.com/in/p-himakar-944b87258" style="text-decoration: none;">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/HimaShin" style="text-decoration: none;">Git Hub</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights" id="contact">
+            copyrights &#169; Himakar's E-Commerce.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    <script src="E-website.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
